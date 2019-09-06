@@ -23,6 +23,7 @@ import org.sonar.plugins.html.checks.attributes.IllegalAttributeCheck;
 import org.sonar.plugins.html.checks.attributes.RequiredAttributeCheck;
 import org.sonar.plugins.html.checks.coding.ComplexityCheck;
 import org.sonar.plugins.html.checks.coding.DoubleQuotesCheck;
+import org.sonar.plugins.html.checks.coding.ElementWithoutIdCheck;
 import org.sonar.plugins.html.checks.coding.FileLengthCheck;
 import org.sonar.plugins.html.checks.coding.InternationalizationCheck;
 import org.sonar.plugins.html.checks.coding.MaxLineLengthCheck;
@@ -134,7 +135,8 @@ public final class CheckClasses {
     PageWithoutFaviconCheck.class,
     TodoCommentCheck.class,
     FixmeCommentCheck.class,
-    ElementWithGivenIdPresentCheck.class
+    ElementWithGivenIdPresentCheck.class,
+    ElementWithoutIdCheck.class
   );
 
   private CheckClasses() {

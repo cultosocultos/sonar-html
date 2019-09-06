@@ -1,0 +1,19 @@
+{
+  "title": "Elements should have id",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "5min"
+  },
+  "tags": [
+    "test-automation",
+    "jsp-jsf",
+    "html5",
+    "dtp"
+  ],
+  "defaultSeverity": "Major",
+  "ruleSpecification": "RSPEC-0000",
+  "sqKey": "ElementWithoutIdCheck",
+  "scope": "Main"
+}

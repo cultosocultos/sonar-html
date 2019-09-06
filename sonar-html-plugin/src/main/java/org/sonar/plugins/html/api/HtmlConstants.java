@@ -24,8 +24,8 @@ public class HtmlConstants {
   public static final String LANGUAGE_NAME = "HTML";
 
   /** JSP language key. */
-  public static final String JSP_LANGUAGE_KEY = "jsp";
-  public static final String JSP_LANGUAGE_NAME = "JSP";
+  public static final String JSP_LANGUAGE_KEY = "jsp_web";
+  public static final String JSP_LANGUAGE_NAME = "JSP_WEB";
 
   // ================ Plugin properties ================
 
